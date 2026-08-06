@@ -1,71 +1,58 @@
 # EyesightWorks Technologies Operating Manual
 
-The official operating manual for building EyesightWorks Technologies into a scalable software company focused on solving real business problems through software, automation, and artificial intelligence.
+**Version:** 1.0
 
-This repository defines our company direction, product strategy, technical principles, architecture standards, and decision-making process.
+**Status:** Active
 
-It is the single source of truth for how we build, operate, and scale the company.
-
----
-
-**Version:** 1.0  
-**Status:** Active  
-**Last Updated:** 2026-07-31
+**Last Updated:** 2026-08-05
 
 ---
 
-## Operating Manual Status
+## Purpose
 
-| Item | Progress |
-|------|---------:|
-| Total Documents | 17 |
-| Approved | 2 |
-| In Progress | 1 |
-| Pending | 14 |
-| Current Phase | Phase 2 — Business Design |
+The EyesightWorks Technologies Operating Manual is the single source of truth for how the company operates, makes decisions, designs products, and builds software.
 
----
+It documents the company's vision, business model, architecture, engineering standards, governance, and product strategy so that every decision supports the same long-term direction.
 
-> "The purpose of this operating manual is not to create documentation. Its purpose is to help EyesightWorks Technologies make better decisions, execute faster, and build products customers value."
+> **Guiding Principle**
+>
+> *The purpose of this operating manual is not to create documentation. Its purpose is to help EyesightWorks Technologies make better decisions, execute faster, and build products customers value.*
 
 ---
 
 # Contents
 
-- Overview
-- Mission
-- North Star
-- Current Phase
-- Current Milestone
-- Repository Structure
-- Getting Started
-- Operating Principles
-- Weekly Operating Rhythm
-- Long-Term Vision
-- Status
+* Purpose
+* Overview
+* Mission
+* North Star
+* Current Phase
+* Current Milestone
+* Operating Manual Status
+* Repository Structure
+* Getting Started
+* Operating Principles
+* Development Philosophy
+* Governance Philosophy
+* Weekly Operating Rhythm
+* Decision Framework
+* Long-Term Vision
+* Definition of Success
+* Status
 
 ---
 
 # Overview
 
-EyesightWorks Technologies is building software products that help African businesses operate more efficiently, automate repetitive processes, make better decisions, and grow sustainably.
+EyesightWorks Technologies is a technology company building practical software that helps African businesses operate more efficiently through cloud computing, automation, and artificial intelligence.
 
-We do not build isolated projects.
-
-We build products that belong to a connected technology ecosystem.
-
-The operating model is based on:
-
-- Customer validation before major investment
-- Business value before technical complexity
-- Reusable platform capabilities
-- Continuous improvement through feedback
+Rather than creating isolated applications, the company develops reusable platform capabilities that support multiple products across AI solutions, industry platforms, and ERP systems.
 
 ---
 
 # Mission
 
-To build intelligent software solutions that help businesses across Africa improve operations, increase productivity, and grow through technology.
+Build intelligent software that helps African businesses operate more efficiently, improve productivity, and grow sustainably through modern technology.
 
 ---
 
@@ -73,113 +60,101 @@ To build intelligent software solutions that help businesses across Africa impro
 
 **Help African businesses operate better using software and AI.**
 
-Every product, feature, and technical decision should support this goal.
+Every business, product, architecture, and engineering decision should support this purpose.
 
 ---
 
 # Current Phase
 
-## Phase 1 — Company Design ✅ Complete
+✅ **Phase 1 — Company Design** *(Complete)*
 
-Established:
+▶ **Phase 2 — Business Design** *(Current)*
 
-- Company vision
-- Mission and positioning
-- Operating principles
-- Governance model
-- Documentation standards
-- Decision framework
+◯ Phase 3 — Platform Design
 
----
-
-## Phase 2 — Business Design ▶ Current
-
-Objective:
-
-Define the smallest evidence-based business model that can be validated with real customers.
-
-Focus areas:
-
-- Customer segments
-- Value propositions
-- Revenue models
-- Customer acquisition
-- Validation experiments
-- Business assumptions
-
----
-
-## Phase 3 — Platform Design
-
-Pending.
-
-Will define:
-
-- Backend architecture
-- Frontend architecture
-- Database architecture
-- API architecture
-
----
-
-## Phase 4 — Execution
-
-Pending.
-
-Will include:
-
-- MVP development
-- Customer testing
-- Product launch
-- Iteration
-- Revenue growth
+◯ Phase 4 — Execution
 
 ---
 
 # Current Milestone
 
-## Milestone 1 — Foundation Complete ✅
+**Milestone 1 — Foundation Complete** ✅
 
-The company foundation has been documented and approved.
+**Next Milestone**
+
+**Milestone 2 — First Customer Validation**
+
+Success means:
+
+* MVP deployed
+* Target customers have seen it
+* Customers have tested it
+* Structured feedback collected
+* Evidence that customers would pay—or a clear understanding of why they would not
 
 ---
 
-## Milestone 2 — First Customer Validation
+# Operating Manual Status
 
-Success criteria:
-
-- MVP deployed
-- Target customers have reviewed the product
-- Users have tested the solution
-- Customer feedback has been documented
-- At least one customer shows willingness to pay
+| Item          | Progress |
+| ------------- | -------: |
+| Documents     |       17 |
+| Approved      |        2 |
+| In Progress   |        1 |
+| Pending       |       14 |
+| Current Phase |  Phase 2 |
 
 ---
 
 # Repository Structure
 
+```text
+eyesightworks-operating-manual/
+
+├── README.md
+└── docs/
+    ├── 00-phase-1-summary.md
+    ├── 01-company-vision.md
+    ├── 02-business-architecture.md
+    ├── 03-backend-architecture.md
+    ├── 04-frontend-architecture.md
+    ├── 05-database-architecture.md
+    ├── 06-api-architecture.md
+    ├── 07-product-roadmap.md
+    ├── 08-decision-log.md
+    ├── 09-customer-feedback.md
+    ├── 10-launch-checklist.md
+    ├── 11-metrics-dashboard.md
+    ├── 12-business-value-score.md
+    ├── 13-brand-guidelines.md
+    ├── 14-development-standards.md
+    ├── 15-product-requirements/
+    ├── 16-vision-parking-lot.md
+    └── 17-risk-register.md
+```
+
 ---
 
 # Getting Started
 
-New contributors should review the documents in this order:
+New contributors should review the documents in the following order:
 
-1. 00-phase-1-summary.md
-2. 01-company-vision.md
-3. 02-business-architecture.md
-4. 03-backend-architecture.md
-5. 04-frontend-architecture.md
-6. 05-database-architecture.md
-7. 06-api-architecture.md
-8. 07-product-roadmap.md
+1. `00-phase-1-summary.md`
+2. `01-company-vision.md`
+3. `02-business-architecture.md`
+4. `03-backend-architecture.md`
+5. `04-frontend-architecture.md`
+6. `05-database-architecture.md`
+7. `06-api-architecture.md`
+8. `07-product-roadmap.md`
 
-The remaining documents provide supporting standards and references.
+The remaining documents provide supporting standards, governance, and reference material.
 
 ---
 
 # Operating Principles
 
-Every decision should improve one or more of these areas:
+Every significant decision should strengthen one or more of the following pillars.
 
 ## Customer Value
 
@@ -187,7 +162,7 @@ Solve meaningful customer problems.
 
 ## Business Sustainability
 
-Build products with clear paths to revenue.
+Build products with clear paths to sustainable revenue.
 
 ## Platform Scalability
 
@@ -195,97 +170,99 @@ Create reusable systems instead of rebuilding the same solutions repeatedly.
 
 ## Execution Speed
 
-Learn quickly, release improvements, and respond to customer feedback.
+Ship, learn, improve, and respond quickly to customer feedback.
 
 ---
 
 # Development Philosophy
 
-Our decision order:
+Our decision order is always:
 
-Business
-
-↓
-
-Product
+**Business**
 
 ↓
 
-Architecture
+**Product**
 
 ↓
 
-Engineering
+**Architecture**
 
-Technology supports business outcomes.
+↓
+
+**Engineering**
+
+Technology exists to support business outcomes—not the other way around.
 
 ---
 
 # Governance Philosophy
 
-Governance serves execution, not the other way around.
+**Governance serves execution, not the other way around.**
 
 Processes exist to improve:
 
-- Decision quality
-- Execution speed
-- Organizational clarity
+* Execution speed
+* Decision quality
+* Organizational clarity
 
-If a process creates more overhead than value, it should be simplified.
+If a process creates more overhead than value, it should be simplified based on evidence.
 
 ---
 
 # Weekly Operating Rhythm
 
-Every week ends with a Weekly Evidence Review.
+Every Friday concludes with a **Weekly Evidence Review**.
 
-Questions:
+The review answers five questions:
 
 1. What did we build?
-2. What did we learn?
-3. Which assumptions changed?
+2. What did we learn from customers?
+3. Which assumptions were validated or disproved?
 4. What blocked progress?
-5. What is the next most important objective?
+5. What is the single most important objective for next week?
 
-The purpose is continuous learning and improvement.
+The goal is continuous learning, better decisions, and steady execution.
 
 ---
 
 # Decision Framework
 
-Important decisions are documented with:
+Every significant decision is documented using a standard format.
 
-- Decision ID
-- Context
-- Decision
-- Reasoning
-- Consequences
-- Affected Documents
-- Review Trigger
-- Owner
-- Date
+Each decision includes:
+
+* Decision ID
+* Context
+* Decision
+* Reasoning
+* Consequences
+* Affected Documents
+* Review Trigger
+* Owner
+* Date
 
 Decision categories:
 
-- BUS — Business Decision
-- ARCH — Architecture Decision
-- PROD — Product Decision
-- ENG — Engineering Decision
-- OPS — Operational Decision
+* **BUS** — Business Decision
+* **ARCH** — Architecture Decision
+* **PROD** — Product Decision
+* **ENG** — Engineering Decision
+* **OPS** — Operational Decision
 
 ---
 
 # Long-Term Vision
 
-The goal is to build a technology company that provides:
+EyesightWorks Technologies aims to become a trusted technology company that builds:
 
-- AI-powered business solutions
-- Industry platforms
-- ERP systems
-- Shared software infrastructure
-- Future developer and mobile platforms
+* AI-powered business software
+* Industry platforms
+* ERP systems
+* Shared platform services
+* Reusable engineering infrastructure
 
-Growth will come from solving real problems, validating customer needs, and building scalable technology.
+Growth will be driven by solving real customer problems, validating business assumptions, and building scalable products.
 
 ---
 
@@ -293,17 +270,17 @@ Growth will come from solving real problems, validating customer needs, and buil
 
 Success is not measured by:
 
-- Lines of code
-- Number of features
-- Number of repositories
+* Lines of code
+* Number of features
+* Number of repositories
 
 Success is measured by:
 
-- Customers using our products
-- Customers receiving value
-- Customers returning
-- Customers paying
-- Sustainable business growth
+* Customers using our products
+* Customers receiving measurable value
+* Customers returning
+* Customers paying
+* Sustainable business growth
 
 ---
 
@@ -315,12 +292,12 @@ Success is measured by:
 
 **Current Document:** `docs/02-business-architecture.md`
 
-**Next Objective:**
+**Current Objective:**
 
-Define a validated business model that can lead to the first paying customers.
+Design the smallest evidence-driven business model that can lead to the first paying customers.
 
 ---
 
-## Guiding Principle
+## Final Principle
 
-**Every decision should increase the chances of building a company that customers choose, trust, and pay for.**
+**Every decision should increase the likelihood that EyesightWorks Technologies becomes a company customers choose, trust, and pay for.**
