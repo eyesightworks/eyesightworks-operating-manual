@@ -788,6 +788,86 @@ The objective is not simply to collect feedback, but to transform customer learn
 
 ---
 
+# Feedback Status Lifecycle
+
+Every customer feedback record should have a clearly defined lifecycle status to provide visibility into its evaluation, validation, action, and historical state.
+
+The approved feedback statuses are:
+
+* New
+* Reviewing
+* Validated
+* Addressed
+* Archived
+
+---
+
+## New
+
+Feedback has been received but has not yet been evaluated.
+
+The feedback record should capture the initial context, source, and customer problem identified.
+
+---
+
+## Reviewing
+
+The feedback is being analyzed to determine:
+
+* Evidence quality
+* Customer impact
+* Business relevance
+* Product relevance
+* Supporting information
+
+The purpose of review is to determine whether further validation is required.
+
+---
+
+## Validated
+
+Sufficient evidence confirms that the identified customer problem, opportunity, or insight is meaningful.
+
+Validated feedback may influence:
+
+* Product decisions
+* Business decisions
+* Engineering priorities
+* Operational improvements
+
+Validated feedback should reference related decisions where applicable.
+
+---
+
+## Addressed
+
+The validated feedback has resulted in a completed action.
+
+Actions may include:
+
+* Product improvements
+* Process changes
+* Engineering solutions
+* Business decisions
+* Operational improvements
+
+The feedback record should document the outcome and any related Decision IDs.
+
+---
+
+## Archived
+
+The feedback is preserved for historical reference but is no longer actively under consideration.
+
+Archived feedback remains valuable because it provides:
+
+* Historical customer learning
+* Previous decision context
+* Evidence for future analysis
+
+Archived records should not be deleted unless there is a documented reason.
+
+
 # Decision Summary
 
 ## Approved
