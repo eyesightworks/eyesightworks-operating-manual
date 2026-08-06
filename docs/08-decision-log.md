@@ -1,12 +1,179 @@
-# Decision Governance
+# EyesightWorks Technologies Operating Manual
 
-## Decision Approval Framework
+**Document:** 08 of 17
 
-Not every decision requires the same level of review.
+**Title:** Decision Log
 
-The level of governance should be proportional to the business and operational impact of the decision.
+**Version:** 1.0
 
-The required approval process should consider:
+**Status:** Draft
+
+**Owner:** EyesightWorks Technologies
+
+**Last Updated:** 2026-08-06
+
+---
+
+# Revision History
+
+| Version | Date | Changes |
+|----------|------------|---------------------------|
+| 1.0 | 2026-08-06 | Initial Decision Log Governance |
+
+---
+
+# Decision Log
+
+## Executive Summary
+
+This document defines how important business, product, architecture, engineering, and operational decisions are recorded, reviewed, approved, and maintained across EyesightWorks Technologies.
+
+The purpose of the Decision Log is to preserve organizational knowledge, improve decision quality, maintain consistency across company documents, and provide historical traceability as the company grows.
+
+The Decision Log ensures that important decisions, their supporting evidence, and their expected outcomes remain available for future reference.
+
+Decisions should not be based only on opinions or assumptions.
+
+Significant decisions should consider:
+
+- Business evidence
+- Customer evidence
+- Product evidence
+- Technical evidence
+- Financial evidence
+- Operational evidence
+
+The company follows the principle:
+
+**Evidence Before Assumptions**
+
+---
+
+# Scope of This Document
+
+This document defines:
+
+- Decision governance
+- Decision approval framework
+- Decision ownership
+- Decision lifecycle
+- Decision evidence standards
+- Decision review process
+- Decision numbering
+- Cross-document traceability
+
+This document does not define:
+
+- Product requirements
+- Technical implementation
+- Development workflows
+- Project management processes
+- Company policies unrelated to decision governance
+
+Those subjects are documented separately within the operating manual.
+
+---
+
+# Purpose of Decision Governance
+
+Decision governance exists to improve:
+
+- Decision quality
+- Organizational clarity
+- Strategic alignment
+- Knowledge preservation
+- Accountability
+- Long-term consistency
+
+The purpose of governance is not to slow execution.
+
+Governance processes should support better decisions while maintaining execution speed.
+
+If a governance process creates more complexity than value, it should be reviewed and simplified based on evidence.
+
+---
+
+# Decision Principles
+
+EyesightWorks Technologies follows these principles when making significant decisions.
+
+---
+
+## Evidence Before Opinion
+
+Important decisions should be supported by relevant evidence whenever practical.
+
+Evidence may include:
+
+- Customer feedback
+- Market research
+- Product usage data
+- Technical analysis
+- Financial evaluation
+- Operational experience
+
+Opinions may guide exploration, but evidence should guide final decisions.
+
+---
+
+## Business Value Before Technology Preference
+
+Technology and architecture decisions should exist to support business outcomes.
+
+A technology should not be adopted simply because it is popular, modern, or interesting.
+
+Every decision should answer:
+
+- What problem does this solve?
+- What value does it create?
+- Why is this approach preferred?
+- What evidence supports the decision?
+
+---
+
+## Document Reasoning, Not Only Outcomes
+
+A decision record should explain:
+
+- What was decided
+- Why it was decided
+- What alternatives were considered
+- What evidence supported the decision
+- What consequences are expected
+
+The reasoning behind a decision is often more valuable than the decision itself.
+
+---
+
+## Reusable Knowledge
+
+Decisions should be documented in a way that benefits future teams, products, and company operations.
+
+The objective is not simply recording choices.
+
+The objective is preserving organizational knowledge.
+
+---
+
+## Revisit Decisions When Evidence Changes
+
+Approved decisions are not permanent.
+
+As new customer, business, technical, or operational evidence becomes available, decisions should be reviewed and updated when necessary.
+
+Maintaining outdated decisions reduces organizational effectiveness.
+
+The company values continuous learning over rigid consistency.
+
+---
+
+# Decision Approval Framework
+
+Not every decision requires the same level of governance.
+
+The level of review should be proportional to the impact of the decision.
+
+Decision impact should consider:
 
 - Business impact
 - Customer impact
@@ -15,36 +182,34 @@ The required approval process should consider:
 - Operational impact
 - Long-term consequences
 
-The company should avoid unnecessary approval processes while ensuring that important decisions receive appropriate review, documentation, and accountability.
-
-The goal of decision governance is to maintain high decision quality without creating unnecessary operational delays.
+The company should avoid unnecessary approval processes while ensuring important decisions receive appropriate review, documentation, and accountability.
 
 ---
 
 # Decision Impact Levels
 
-Every significant decision should be classified according to one of the following impact levels:
+Every significant decision should be classified into one of three impact levels:
 
 - Level 1 — Operational Decisions
 - Level 2 — Functional Decisions
 - Level 3 — Strategic Decisions
 
-Higher-impact decisions require stronger evidence, clearer documentation, and a greater level of review before implementation.
+Higher-impact decisions require stronger evidence, clearer documentation, and greater review.
 
 ---
 
 # Level 1 — Operational Decisions
 
-Operational decisions have limited impact and typically affect day-to-day execution.
+Operational decisions affect day-to-day execution and normally have limited long-term impact.
 
-These decisions usually involve improvements to existing processes rather than changes to company direction.
+These decisions usually improve existing processes rather than change company direction.
 
 Examples include:
 
-- Minor workflow improvements
-- Documentation updates
-- Small tooling changes
-- Temporary operational adjustments
+- Documentation improvements
+- Minor workflow changes
+- Small tooling adjustments
+- Temporary operational changes
 - Internal efficiency improvements
 
 Requirements:
@@ -53,11 +218,7 @@ Requirements:
 - Alignment with company principles
 - Basic documentation where appropriate
 
-A formal Decision Log entry is generally not required unless the decision creates long-term business, technical, financial, or operational impact.
-
-Examples:
-
-Updating documentation standards or improving an internal workflow will normally remain an operational decision unless the change affects company-wide policies, standards, or long-term strategy.
+A formal Decision Log entry is usually not required unless the decision creates long-term business, technical, financial, or operational impact.
 
 ---
 
@@ -65,16 +226,16 @@ Updating documentation standards or improving an internal workflow will normally
 
 Functional decisions affect products, engineering practices, or internal company processes.
 
-These decisions have a wider impact than day-to-day operations and should normally be documented.
+These decisions have a wider impact than normal operational decisions and should normally be documented.
 
 Examples include:
 
 - Product scope adjustments
-- Changes to approved technology usage
-- Development workflow improvements
-- Process improvements
+- Technology usage changes
+- Engineering workflow improvements
 - Internal standards
 - Tool adoption decisions
+- Process improvements
 
 Requirements:
 
@@ -98,11 +259,10 @@ Examples include:
 
 - New product investment
 - Major architecture changes
-- Adoption of new technologies
 - Business model changes
 - Platform strategy changes
-- Market expansion
-- Company-wide policy changes
+- Market expansion decisions
+- Company-wide standards
 
 Requirements:
 
@@ -114,7 +274,7 @@ Requirements:
 - Review criteria
 - Appropriate company-level approval where required
 
-Strategic decisions should always be documented because they influence the future direction of the company and often affect multiple products, teams, or operating manual documents.
+Strategic decisions must always be documented because they influence the long-term direction of the company and often affect multiple products, architecture documents, engineering standards, and business operations.
 
 ---
 
@@ -125,15 +285,17 @@ Every significant decision must have a clearly identified owner.
 The decision owner is responsible for:
 
 - Maintaining the decision record
-- Ensuring the documented reasoning remains accurate
+- Ensuring documented reasoning remains accurate
 - Monitoring expected outcomes
 - Initiating reviews when required
-- Updating the decision status
+- Updating decision status
 - Communicating significant changes to affected stakeholders
 
-Decision ownership provides accountability while encouraging collaborative decision-making.
+Ownership may change over time, but responsibility for maintaining historical accuracy must always remain preserved.
 
-Ownership of a decision may change over time, but responsibility for maintaining an accurate historical record should always remain clearly assigned.
+Decision ownership establishes accountability for maintaining the decision record, not exclusive authority over the decision itself.
+
+Significant decisions should continue to encourage collaboration while ensuring clear ownership.
 
 ---
 
@@ -141,18 +303,21 @@ Ownership of a decision may change over time, but responsibility for maintaining
 
 Significant decisions should be supported by evidence whenever practical.
 
+Evidence helps ensure that decisions are based on measurable information rather than assumptions, personal preference, or incomplete understanding.
+
 Evidence may come from:
 
 - Business evidence
 - Product evidence
 - Technical evidence
 - Financial evidence
+- Operational evidence
 
 ---
 
 ## Business Evidence
 
-Business evidence demonstrates that a decision supports the company's strategic and commercial objectives.
+Business evidence demonstrates that a decision supports company strategy and commercial objectives.
 
 Examples include:
 
@@ -171,7 +336,7 @@ Business decisions should be based on validated customer and market evidence whe
 
 ## Product Evidence
 
-Product evidence demonstrates how customers interact with a product and whether it creates measurable value.
+Product evidence demonstrates whether products create measurable customer value.
 
 Examples include:
 
@@ -198,12 +363,12 @@ Examples include:
 - Security assessments
 - Infrastructure requirements
 - Engineering evaluations
-- Operational experience
 - Scalability testing
 - Reliability metrics
 - Proof-of-concept implementations
+- Operational experience
 
-Technical decisions should be supported by measurable data rather than assumptions or personal preference.
+Technical decisions should be supported by measurable information rather than assumptions or personal preference.
 
 ---
 
@@ -221,7 +386,24 @@ Examples include:
 - Budget forecasts
 - Operational cost comparisons
 
-Financial evidence helps ensure that engineering and business investments remain sustainable.
+Financial evidence helps ensure that company investments remain sustainable.
+
+---
+
+## Operational Evidence
+
+Operational evidence demonstrates how decisions affect company execution, reliability, and long-term maintainability.
+
+Examples include:
+
+- Deployment experience
+- Maintenance effort
+- Support requirements
+- Incident history
+- Process performance
+- Team productivity indicators
+
+Operational evidence helps identify whether decisions remain practical as the company grows.
 
 ---
 
@@ -247,9 +429,11 @@ If validated evidence demonstrates that a key assumption is no longer true, the 
 
 Formal decisions should be reviewed whenever significant changes occur that may affect their validity.
 
-Reviewing decisions ensures that company guidance remains aligned with current business, customer, technical, and operational evidence.
+Reviewing decisions ensures that company guidance remains aligned with current business, customer, technical, financial, and operational evidence.
 
 Review triggers include:
+
+---
 
 ## Business Changes
 
@@ -302,15 +486,17 @@ After a review, every decision should result in one of the following outcomes.
 
 ---
 
-## Retain
+# Retain
 
 The decision remains valid.
 
 No changes are required.
 
+The decision continues with its existing status.
+
 ---
 
-## Update
+# Update
 
 The decision remains appropriate but requires adjustments.
 
@@ -320,21 +506,29 @@ The updated record should document:
 - Why the change was necessary
 - Expected impact
 
+If the update represents a significant change, a new Decision ID should be created while preserving historical reference.
+
 ---
 
-## Replace
+# Replace
 
 A newer decision replaces the previous decision.
 
 The original decision should remain available for historical reference and should reference the replacing Decision ID.
 
+Replacement records should include:
+
+- New Decision ID
+- Reason for replacement
+- Date of replacement
+
 ---
 
-## Retire
+# Retire
 
 The decision is no longer applicable because the related technology, process, product, or business requirement has been discontinued.
 
-Retired decisions should remain in the historical record.
+Retired decisions should remain preserved for historical knowledge.
 
 ---
 
@@ -349,223 +543,321 @@ Decision records should be:
 - Easy to maintain
 - Linked to related documents where appropriate
 
-Every decision record should clearly document:
+Every decision record should document:
 
 - The problem being addressed
 - The alternatives considered
 - The selected approach
 - The supporting evidence
 - The reasoning behind the decision
-- The expected outcomes
+- The expected consequences
 - The review trigger
 
-Decision records should provide sufficient context for future team members to understand not only what was decided, but why the decision was made.
-
-The objective is to preserve organizational knowledge rather than simply record final choices.
+Decision records should preserve organizational knowledge, explain the reasoning behind decisions, and support future decision-making.
 
 ---
 
-# Relationship With Other Operating Manual Documents
+# Standard Decision Record Template
 
-The Decision Log provides governance and traceability across the EyesightWorks Operating Manual.
+Every formal decision should use the following structure.
 
-Other operating manual documents should reference approved Decision IDs whenever practical instead of duplicating decision rationale.
+| Field | Description |
+|--------|-------------|
+| Decision ID | Unique identifier |
+| Title | Short descriptive decision title |
+| Category | BUS / PROD / ARCH / ENG / OPS |
+| Status | Proposed / Approved / Implemented / Under Review / Reaffirmed / Updated / Replaced / Retired |
+| Owner | Responsible person or role |
+| Date | Decision approval date |
+| Problem | Problem or opportunity being addressed |
+| Decision | The selected approach |
+| Alternatives Considered | Other options evaluated |
+| Evidence | Supporting business, product, technical, financial, or operational evidence |
+| Consequences | Expected outcomes, benefits, risks, and trade-offs |
+| Review Trigger | Conditions or evidence that require future review |
+| Related Documents | Cross references to operating manual documents |
+| Replaces | Previous Decision ID when applicable |
 
-Examples include:
+The purpose of this template is to ensure that decisions are recorded consistently across EyesightWorks Technologies.
+
+---
+
+# Decision Status Lifecycle
+
+Every formal decision should have a clearly defined status throughout its lifecycle.
+
+Decision status provides visibility into whether a decision is being proposed, actively used, reviewed, changed, or retired.
+
+The approved decision lifecycle statuses are:
+
+- Proposed
+- Approved
+- Implemented
+- Under Review
+- Reaffirmed
+- Updated
+- Replaced
+- Retired
+
+---
+
+## Proposed
+
+The decision has been identified but has not received final approval.
+
+Requirements:
+
+- Problem identified
+- Initial alternatives considered
+- Expected impact documented
+- Responsible owner assigned
+
+---
+
+## Approved
+
+The decision has been reviewed and accepted for implementation.
+
+Requirements:
+
+- Supporting evidence documented
+- Alternatives evaluated
+- Expected consequences understood
+- Owner confirmed
+
+---
+
+## Implemented
+
+The approved decision has been applied within the relevant business, product, architecture, engineering, or operational area.
+
+Requirements:
+
+- Implementation completed
+- Related documentation updated
+- Adoption confirmed where applicable
+
+---
+
+## Under Review
+
+The decision is being evaluated because new evidence, changing requirements, or operational conditions may affect its validity.
+
+Review reasons may include:
+
+- Business changes
+- Customer feedback
+- Technical limitations
+- Operational challenges
+- New opportunities
+
+---
+
+## Reaffirmed
+
+The decision has been reviewed and remains valid.
+
+No replacement or update is required.
+
+A reaffirmed decision should record:
+
+- Review date
+- Evidence considered
+- Reason the decision remains appropriate
+
+---
+
+## Updated
+
+The decision remains valid but requires modifications.
+
+The updated record should document:
+
+- What changed
+- Why the change was necessary
+- Expected impact
+
+If the update represents a significant change, a new Decision ID should be created while preserving historical reference.
+
+---
+
+## Replaced
+
+A newer decision has replaced the previous decision.
+
+The original decision should remain available for historical reference.
+
+Replacement records should include:
+
+- New Decision ID
+- Reason for replacement
+- Date of replacement
+
+---
+
+## Retired
+
+The decision is no longer applicable.
+
+Reasons may include:
+
+- Technology removal
+- Product discontinuation
+- Business strategy changes
+- Process retirement
+
+Retired decisions should remain preserved for historical knowledge.
+
+---
+
+# Decision Repository Organization
+
+As the number of company decisions grows, maintaining all decisions within a single document becomes increasingly difficult.
+
+The Decision Log serves as the central governance index for all formal company decisions, while detailed decision records are maintained as separate documents within the company documentation repository.
+
+The Decision Log records:
+
+- Decision ID
+- Decision title
+- Decision category
+- Current status
+- Decision owner
+- Approval information
+- References to detailed decision records
+
+Individual decision records preserve detailed information including:
+
+- Decision context
+- Problem statement
+- Alternatives considered
+- Supporting evidence
+- Consequences
+- Review history
+
+This approach improves:
+
+- Traceability
+- Maintainability
+- Cross-document references
+- Historical preservation
+- Decision reviews
+
+---
+
+# Repository Structure
+
+Recommended repository organization:
+
+```text
+docs/
+
+├── 08-decision-log.md
+│
+└── decisions/
+    │
+    ├── business/
+    │   └── BUS-001-company-strategy.md
+    │
+    ├── product/
+    │   └── PROD-001-first-mvp.md
+    │
+    ├── architecture/
+    │   ├── ARCH-001-technology-stack.md
+    │   └── ARCH-002-database-strategy.md
+    │
+    ├── engineering/
+    │   └── ENG-001-development-standard.md
+    │
+    └── operations/
+        └── OPS-001-documentation-standard.md
+
+```
+
+---
+
+# Decision Record Naming
+
+Decision records should follow a consistent naming convention to maintain organization, discoverability, and scalability as the number of company decisions grows.
+
+The approved naming format is:
+
+```text
+CATEGORY-NNN-short-description.md
+```
+
+Where:
+
+- **CATEGORY** identifies the decision type.
+- **NNN** represents the unique sequential decision number.
+- **short-description** provides a clear description of the decision.
+
+Examples:
+
+- BUS-001-company-strategy.md
+- PROD-001-first-mvp.md
+- ARCH-001-technology-stack.md
+- ARCH-002-database-strategy.md
+- ENG-001-development-standard.md
+- OPS-001-documentation-standard.md
+
+Decision IDs must remain unique and permanent throughout their lifecycle.
+
+A decision identifier must not be reused, even if the decision is later updated, replaced, or retired.
+
+---
+
+# Cross-Document References
+
+Operating Manual documents should reference approved Decision IDs rather than duplicating decision reasoning.
+
+The purpose is to maintain a single source of truth for decision context, supporting evidence, consequences, and historical reasoning.
+
+Examples:
+
+---
 
 ## Business Documents
 
-- Business Architecture
-- Product Roadmap
+Product Roadmap  
+→ PROD-001
+
+Business Architecture  
+→ BUS-001
 
 ---
 
 ## Architecture Documents
 
-- Technology Stack
-- Backend Architecture
-- Frontend Architecture
-- Database Architecture
-- API Architecture
+Technology Stack  
+→ ARCH-001
+
+Database Architecture  
+→ ARCH-002
+
+API Architecture  
+→ ARCH-005
 
 ---
 
 ## Engineering Documents
 
-- Development Workflow
-- Development Standards
-- Testing Standards
-- Deployment Processes
+Development Standards  
+→ ENG-001
+
+Testing Standards  
+→ ENG-002
 
 ---
 
-## Operations Documents
+Cross-document references improve:
 
-- Security
-- Monitoring
-- Infrastructure
-- Documentation
+- Consistency
+- Traceability
+- Maintainability
+- Duplication reduction
+- Historical preservation
 
-Cross-document references improve consistency, simplify maintenance, and preserve decision history across the company.
-
----
-
-# Decision Log Maintenance
-
-The Decision Log is a living governance document.
-
-Maintenance activities include:
-
-- Recording new decisions
-- Updating decision status
-- Reviewing existing decisions
-- Linking related documents
-- Recording replacement decisions
-- Retiring obsolete decisions
-
-Historical decisions should be preserved unless there is a documented reason for removal.
-
-Previous decisions provide valuable organizational knowledge and help explain the evolution of the company's business, products, architecture, and engineering practices.
+They ensure that business, product, architecture, engineering, and operational documents remain aligned as EyesightWorks Technologies grows.
 
 ---
-
-# Decision Numbering Convention
-
-Every formal decision should use a unique identifier.
-
-A standardized numbering convention improves consistency, traceability, and cross-document references throughout the EyesightWorks Operating Manual.
-
-## Format
-
-**CATEGORY-NNN**
-
-Where:
-
-- **CATEGORY** identifies the decision category.
-- **NNN** is a sequential three-digit number assigned within that category.
-
-Examples include:
-
-- BUS-001
-- BUS-002
-- PROD-001
-- ARCH-001
-- ENG-001
-- OPS-001
-
-Decision identifiers should never be reused.
-
-Each Decision ID should remain permanent throughout its lifecycle, even if the decision is later updated, replaced, or retired.
-
-When a decision is replaced, the replacement decision should receive a new unique Decision ID and reference the previous Decision ID to preserve historical traceability across the operating manual.
-
----
-
-## Decision Category Definitions
-
-### BUS — Business Decisions
-
-Used for decisions related to:
-
-- Company strategy
-- Revenue models
-- Market selection
-- Partnerships
-- Business priorities
-
----
-
-### PROD — Product Decisions
-
-Used for decisions related to:
-
-- Product strategy
-- MVP decisions
-- Product priorities
-- Customer validation
-- Feature investment
-
----
-
-### ARCH — Architecture Decisions
-
-Used for decisions related to:
-
-- System architecture
-- Platform design
-- Infrastructure choices
-- Service boundaries
-- Technical architecture
-
----
-
-### ENG — Engineering Decisions
-
-Used for decisions related to:
-
-- Technology selection
-- Development standards
-- Testing practices
-- Engineering workflows
-- Coding standards
-
----
-
-### OPS — Operations Decisions
-
-Used for decisions related to:
-
-- Internal processes
-- Documentation standards
-- Deployment processes
-- Governance procedures
-
----
-
-Decision IDs provide traceability across the company operating system.
-
-They allow business, product, architecture, engineering, and operational documents to reference decisions without repeating the original reasoning.
-If a decision is replaced, the original identifier should remain in the historical record, and the new decision should receive a new unique identifier.
-
----
-
-# Decision Summary
-
-## Approved
-
-- Impact-based decision governance
-- Evidence-driven decision making
-- Decision ownership
-- Decision review process
-- Decision lifecycle management
-- Cross-document decision references
-- Unique Decision IDs
-- Historical decision preservation
-
----
-
-## Open Questions
-
-- What evidence threshold should be required before approving strategic decisions?
-- Which company decisions require formal leadership approval?
-- How frequently should strategic decisions be reviewed?
-- What criteria should trigger an early review of an approved decision?
-
----
-
-# Next Document
-
-## 09-customer-feedback.md
-
-This document defines how EyesightWorks Technologies collects, organizes, analyzes, and uses customer feedback to improve business decisions, product strategy, and platform development.
-
-It will define:
-
-- Customer feedback sources
-- Customer interview process
-- Feedback collection methods
-- Feedback classification
-- Evidence tracking
-- Feature request evaluation
-- Customer validation process
-- Feedback governance
