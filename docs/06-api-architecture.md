@@ -28,7 +28,7 @@
 
 This document defines the API architecture standards for EyesightWorks Technologies.
 
-The purpose of this document is to establish a secure, consistent, scalable, and maintainable API foundation that supports multiple products across the company ecosystem.
+The purpose of this document is to establish a secure, consistent, scalable, and maintainable API foundation that supports multiple software products across the company ecosystem.
 
 The API platform should enable:
 
@@ -45,9 +45,9 @@ API architecture exists to support the company's operating philosophy:
 
 APIs are business interfaces rather than simply technical endpoints.
 
-They expose reusable business capabilities that allow products, services, and integrations to communicate consistently across the EyesightWorks platform.
+They expose business capabilities that enable products, services, and integrations to communicate consistently across the EyesightWorks platform.
 
-This document defines API architecture standards.
+This document defines company-wide API architecture standards.
 
 It does not define:
 
@@ -57,7 +57,7 @@ It does not define:
 - Frontend implementation
 - Business workflows
 
-Those subjects belong in their respective documents.
+Those subjects belong in their respective architecture and product documents.
 
 ---
 
@@ -69,13 +69,13 @@ The API architecture follows these principles.
 
 APIs should represent meaningful business capabilities rather than direct database operations.
 
-The API layer should translate business requirements into secure, reusable interfaces.
+The API layer translates business requirements into secure, reusable interfaces.
 
 ---
 
 ## Platform Before Product
 
-The API platform should expose reusable business capabilities that can be consumed consistently across multiple EyesightWorks products.
+The API platform should expose reusable business capabilities that can be consumed consistently across multiple EyesightWorks products while allowing product-specific capabilities where necessary.
 
 Shared capabilities should be implemented once and reused wherever practical.
 
@@ -97,7 +97,7 @@ All APIs should follow consistent standards for:
 - Error handling
 - Versioning
 
-Consistency improves developer experience, reduces maintenance effort, and simplifies platform growth.
+Consistency improves developer experience, reduces maintenance effort, and simplifies long-term platform growth.
 
 ---
 
@@ -111,8 +111,8 @@ Security considerations include:
 - Authorization
 - Input validation
 - Rate limiting
-- Data protection
 - Secure communication
+- Data protection
 
 Security should be designed into every API from the beginning.
 
@@ -122,7 +122,7 @@ Security should be designed into every API from the beginning.
 
 The company prefers simple, understandable APIs before introducing additional architectural complexity.
 
-Complexity should only be introduced when supported by validated customer needs or operational evidence.
+Complexity should only be introduced when supported by validated customer needs, business requirements, or operational evidence.
 
 ---
 
@@ -146,7 +146,8 @@ Enable communication between:
 - Mobile applications
 - Internal services
 - External systems
-- Future partner integrations
+- External integrations
+- Partner integrations when strategically justified
 
 ---
 
@@ -183,7 +184,7 @@ Support long-term growth in:
 - Integrations
 - Business operations
 
-without requiring major redesign.
+without requiring major architectural redesign.
 
 ---
 
@@ -216,7 +217,7 @@ GraphQL is not part of the initial platform.
 
 It may be introduced only when validated business requirements demonstrate measurable value beyond REST.
 
-Examples may include:
+Possible review triggers include:
 
 - Complex client-driven data requirements
 - Highly interactive dashboards
@@ -224,7 +225,7 @@ Examples may include:
 
 ---
 
-## API Format
+## API Data Format
 
 The standard API data format is:
 
@@ -233,8 +234,8 @@ The standard API data format is:
 JSON provides:
 
 - Broad compatibility
-- Simplicity
 - Human readability
+- Simplicity
 - Excellent ecosystem support
 
 All APIs should return structured JSON responses unless a documented exception exists.
@@ -261,3 +262,270 @@ These shared capabilities provide reusable platform services that support multip
 Product-specific APIs should extend these shared capabilities rather than duplicate them.
 
 Detailed endpoint definitions belong in individual product documentation and API specifications rather than this architecture document.
+
+The shared API architecture provides company-wide standards and reusable capabilities, while individual products remain responsible for defining their own domain-specific API requirements.
+
+---
+
+# Authentication & Authorization
+
+All APIs requiring protected resources must support secure authentication and authorization.
+
+Approved authentication technologies:
+
+- JWT Access Tokens
+- Refresh Tokens
+
+Authorization should use:
+
+- Role-Based Access Control (RBAC)
+
+Authentication should remain centralized so that multiple products share a consistent identity platform.
+
+---
+
+# API Versioning
+
+Public APIs should use explicit versioning.
+
+Example:
+
+```
+/api/v1/
+```
+
+New API versions should be introduced only when breaking changes cannot reasonably be avoided.
+
+Backward compatibility should be maintained whenever practical.
+
+---
+
+# Request Standards
+
+API requests should follow consistent standards.
+
+Requests should include:
+
+- Appropriate HTTP methods
+- Clear resource naming
+- Request validation
+- Authentication where required
+- Consistent pagination
+- Filtering
+- Sorting
+
+Large requests should support pagination to improve performance.
+
+---
+
+# Response Standards
+
+All APIs should return predictable response structures.
+
+Responses should include:
+
+- Success status
+- Requested data
+- Metadata when appropriate
+- Error information when applicable
+
+Response structures should remain consistent across all company products.
+
+---
+
+# Input Validation
+
+All incoming requests must be validated before business logic executes.
+
+Validation should verify:
+
+- Required fields
+- Data types
+- Accepted values
+- Input length
+- Data format
+
+Invalid requests should return clear validation errors.
+
+---
+
+# Error Handling
+
+APIs should return standardized error responses.
+
+Errors should provide:
+
+- Appropriate HTTP status codes
+- Human-readable messages
+- Machine-readable error codes
+- Validation details where applicable
+
+Internal implementation details should never be exposed to API consumers.
+
+---
+
+# Rate Limiting
+
+Rate limiting protects platform reliability and prevents abuse.
+
+Rate limits may vary according to:
+
+- Anonymous users
+- Authenticated users
+- Subscription plans
+- Administrative users
+
+Limits should be monitored and adjusted using operational evidence.
+
+---
+
+# API Security
+
+Production APIs should implement:
+
+- HTTPS
+- Security headers
+- Input sanitization
+- Rate limiting
+- Authentication
+- Authorization
+- Request validation
+- Audit logging
+
+Security should be reviewed continuously as the platform evolves.
+
+---
+
+# API Documentation
+
+All production APIs should be documented.
+
+Approved documentation standard:
+
+**OpenAPI (Swagger)**
+
+Documentation should include:
+
+- Endpoints
+- Request examples
+- Response examples
+- Authentication requirements
+- Error responses
+
+Accurate documentation improves developer productivity and integration quality.
+
+---
+
+# Monitoring & Observability
+
+Production APIs should monitor:
+
+- Response times
+- Error rates
+- Request volume
+- Authentication failures
+- Rate-limit events
+- Availability
+
+Monitoring supports proactive maintenance and operational reliability.
+
+---
+
+# Scalability Strategy
+
+API scalability should evolve gradually.
+
+## MVP Stage
+
+Focus:
+
+- Simple REST APIs
+- Shared business capabilities
+- Reliable authentication
+- Clear documentation
+
+---
+
+## Growth Stage
+
+Introduce:
+
+- Performance optimization
+- Response caching
+- Background processing
+- Improved monitoring
+
+---
+
+## Enterprise Stage
+
+Evaluate:
+
+- API Gateway
+- Service-to-service authentication
+- Advanced caching
+- Distributed event processing
+- Additional API technologies
+
+Additional complexity should only be introduced when supported by measurable evidence.
+
+---
+
+# API Decision Principles
+
+API decisions should improve one or more of the following:
+
+- Customer value
+- Developer productivity
+- Security
+- Reliability
+- Maintainability
+- Scalability
+
+If an architectural decision does not create measurable value, it should not be adopted.
+
+---
+
+# Decision Summary
+
+## Approved
+
+- REST as the primary API standard
+- JSON as the standard data format
+- JWT authentication
+- Refresh token strategy
+- Role-Based Access Control
+- OpenAPI documentation
+- Versioned APIs
+- Shared platform API architecture
+- Company-wide API standards
+- Evidence-driven API evolution
+
+---
+
+## Open Questions
+
+- When should GraphQL be introduced?
+- When is an API Gateway justified?
+- When should public APIs be exposed to external developers?
+- What API rate limits should apply to different customer plans?
+- Which integrations provide the greatest customer value?
+
+---
+
+# Next Document
+
+## 07-product-roadmap.md
+
+This document defines the strategic roadmap for EyesightWorks Technologies products.
+
+It will define:
+
+- Product portfolio
+- Product lifecycle
+- MVP sequencing
+- Release strategy
+- Product prioritization
+- Validation milestones
+- Customer learning milestones
+- Long-term product evolution
