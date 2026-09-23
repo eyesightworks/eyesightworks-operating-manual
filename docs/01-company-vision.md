@@ -1,17 +1,25 @@
 # EyesightWorks Technologies Operating Manual
 
-**Document:** 01 of 17
+**Document:** 01 of 21
+
 **Title:** Company Vision
-**Version:** 1.0
+
+**Version:** 1.1
+
 **Status:** Approved
+
 **Owner:** EyesightWorks Technologies
-**Last Updated:** 2026-08-05
+
+**Last Updated:** 2026-09-21
+
+---
 
 ## Revision History
 
-| Version | Date       | Changes                         |
-| ------- | ---------- | ------------------------------- |
-| 1.0     | 2026-08-05 | Initial approved Company Vision |
+| Version | Date       | Changes                                                                                |
+| ------- | ---------- | -------------------------------------------------------------------------------------- |
+| 1.0     | 2026-08-05 | Initial approved Company Vision                                                        |
+| 1.1     | 2026-09-21 | Updated document count and aligned document metadata with the current Operating Manual |
 
 ---
 
@@ -23,7 +31,7 @@ This document establishes the long-term direction, operating philosophy, and str
 
 It defines why the company exists, what it aims to achieve, and the principles that guide every business, product, architecture, and engineering decision.
 
-This document intentionally avoids implementation details, pricing models, technical architecture, and feature specifications. Those topics are addressed in later documents within the operating manual.
+This document intentionally avoids implementation details, pricing models, technical architecture, and feature specifications. Those topics are addressed in later documents within the Operating Manual.
 
 ---
 
@@ -170,6 +178,8 @@ Each business unit serves a different market while sharing a common technology p
 
 This approach allows products to evolve independently without duplicating core platform capabilities.
 
+---
+
 ## AI Platform
 
 ### Purpose
@@ -228,6 +238,8 @@ Future business units will be introduced only after existing products have demon
 EyesightWorks Technologies serves organizations that want to improve operational efficiency through practical software solutions.
 
 While the long-term addressable market is broad, each product will begin with a clearly defined beachhead market before expanding.
+
+---
 
 ## AI Platform
 
@@ -554,7 +566,7 @@ It intentionally does **not** define:
 * Implementation details
 * Project timelines
 
-Those subjects are documented separately within the operating manual.
+Those subjects are documented separately within the Operating Manual.
 
 Keeping this document focused ensures it remains stable even as products evolve.
 
@@ -584,7 +596,7 @@ The following strategic decisions are approved through this document:
 
 ---
 
-## Open Questions
+# Open Questions
 
 The following topics will be addressed in later documents:
 
@@ -621,7 +633,7 @@ It transforms the company vision into an evidence-driven business model that gui
 
 # Document Status
 
-**Status:** Approved v1.0
+**Status:** Approved v1.1
 
 This document establishes the strategic foundation of EyesightWorks Technologies.
 

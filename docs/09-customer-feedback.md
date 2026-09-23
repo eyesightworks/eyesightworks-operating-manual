@@ -16,9 +16,9 @@
 
 # Revision History
 
-| Version | Date | Changes |
-|----------|------------|---------------------------|
-| 1.0 | 2026-08-06 | Initial Customer Feedback Framework |
+| Version | Date       | Changes                             |
+| ------- | ---------- | ----------------------------------- |
+| 1.0     | 2026-08-06 | Initial Customer Feedback Framework |
 
 ---
 
@@ -48,25 +48,25 @@ Architecture guides engineering execution.
 
 This document defines:
 
-- Customer feedback principles
-- Feedback collection methods
-- Customer interview standards
-- Feedback classification
-- Evidence quality standards
-- Feature request evaluation
-- Customer validation processes
-- Feedback governance
-- Cross-document relationships
+* Customer feedback principles
+* Feedback collection methods
+* Customer interview standards
+* Feedback classification
+* Evidence quality standards
+* Feature request evaluation
+* Customer validation processes
+* Feedback governance
+* Cross-document relationships
 
 This document does not define:
 
-- Product roadmaps
-- Feature specifications
-- Technical implementation
-- User interface design
-- Customer support procedures
+* Product roadmaps
+* Feature specifications
+* Technical implementation
+* User interface design
+* Customer support procedures
 
-Those subjects are documented separately within the operating manual.
+Those subjects are documented separately within the Operating Manual.
 
 ---
 
@@ -76,11 +76,11 @@ Customer feedback exists to improve decision quality.
 
 Feedback should help the company understand:
 
-- Customer problems
-- Customer goals
-- Customer behavior
-- Customer outcomes
-- Product effectiveness
+* Customer problems
+* Customer goals
+* Customer behavior
+* Customer outcomes
+* Product effectiveness
 
 The purpose of collecting feedback is to discover evidence rather than confirm assumptions.
 
@@ -90,11 +90,11 @@ The company follows the principle:
 
 Customer feedback should reveal:
 
-- What customers are trying to achieve
-- Where customers experience difficulty
-- Which problems create meaningful business impact
-- Whether current solutions provide value
-- Where opportunities for improvement exist
+* What customers are trying to achieve
+* Where customers experience difficulty
+* Which problems create meaningful business impact
+* Whether current solutions provide value
+* Where opportunities for improvement exist
 
 ---
 
@@ -110,10 +110,10 @@ The company seeks to understand customer problems before proposing product featu
 
 Feedback should focus on:
 
-- Customer challenges
-- Existing workflows
-- Current limitations
-- Desired outcomes
+* Customer challenges
+* Existing workflows
+* Current limitations
+* Desired outcomes
 
 The company should avoid collecting feedback only by asking customers what features they want.
 
@@ -129,11 +129,11 @@ Important business and product decisions should rely on patterns rather than iso
 
 Evidence quality improves when feedback is supported by:
 
-- Multiple customer conversations
-- Product usage data
-- Market research
-- Business impact analysis
-- Repeated customer behavior
+* Multiple customer conversations
+* Product usage data
+* Market research
+* Business impact analysis
+* Repeated customer behavior
 
 ---
 
@@ -143,11 +143,11 @@ Customer understanding is an ongoing activity rather than a one-time project.
 
 Feedback should continue throughout the product lifecycle:
 
-- Before product development
-- During MVP validation
-- During customer adoption
-- During product growth
-- During major product changes
+* Before product development
+* During MVP validation
+* During customer adoption
+* During product growth
+* During major product changes
 
 Continuous learning helps the company adapt as customer needs evolve.
 
@@ -159,10 +159,10 @@ A small amount of high-quality customer evidence is often more valuable than a l
 
 The company prioritizes:
 
-- Detailed customer conversations
-- Clear problem understanding
-- Measurable outcomes
-- Reliable customer signals
+* Detailed customer conversations
+* Clear problem understanding
+* Measurable outcomes
+* Reliable customer signals
 
 Feedback volume alone does not indicate feedback quality.
 
@@ -176,10 +176,10 @@ The company should only collect information that creates measurable customer or 
 
 Customer interactions should:
 
-- Have a clear purpose
-- Avoid unnecessary questions
-- Provide value to participants
-- Maintain professional communication
+* Have a clear purpose
+* Avoid unnecessary questions
+* Provide value to participants
+* Maintain professional communication
 
 ---
 
@@ -187,13 +187,13 @@ Customer interactions should:
 
 The customer feedback system should help the company:
 
-- Discover meaningful customer problems
-- Validate business opportunities
-- Improve product decisions
-- Prioritize engineering investment
-- Measure customer satisfaction
-- Reduce product risk
-- Support continuous improvement
+* Discover meaningful customer problems
+* Validate business opportunities
+* Improve product decisions
+* Prioritize engineering investment
+* Measure customer satisfaction
+* Reduce product risk
+* Support continuous improvement
 
 Customer feedback should directly contribute to better decisions across business, product, architecture, engineering, and operations.
 
@@ -203,30 +203,30 @@ Customer feedback should directly contribute to better decisions across business
 
 Customer evidence may be collected from multiple sources, including:
 
-- Customer interviews
-- Product demonstrations
-- Product usage analytics
-- Customer support interactions
-- Feature requests
-- Surveys
-- Sales conversations
-- Community discussions
-- User testing sessions
-- Customer onboarding
-- Customer success reviews
+* Customer interviews
+* Product demonstrations
+* Product usage analytics
+* Customer support interactions
+* Feature requests
+* Surveys
+* Sales conversations
+* Community discussions
+* User testing sessions
+* Customer onboarding
+* Customer success reviews
 
 Using multiple sources helps reduce bias and improve decision quality.
 
 Different feedback sources provide different types of evidence:
 
-| Source | Primary Purpose |
-|---|---|
-| Customer Interviews | Understand problems, goals, and motivations |
-| Product Analytics | Measure customer behavior and usage patterns |
-| Support Interactions | Identify recurring customer difficulties |
-| Feature Requests | Discover customer needs and expectations |
-| Sales Conversations | Understand buying requirements and objections |
-| User Testing | Evaluate product usability and effectiveness |
+| Source               | Primary Purpose                               |
+| -------------------- | --------------------------------------------- |
+| Customer Interviews  | Understand problems, goals, and motivations   |
+| Product Analytics    | Measure customer behavior and usage patterns  |
+| Support Interactions | Identify recurring customer difficulties      |
+| Feature Requests     | Discover customer needs and expectations      |
+| Sales Conversations  | Understand buying requirements and objections |
+| User Testing         | Evaluate product usability and effectiveness  |
 
 ---
 
@@ -240,17 +240,40 @@ Interviews should focus on discovering real customer problems rather than valida
 
 Interview discussions should encourage customers to describe:
 
-- Current workflows
-- Business objectives
-- Operational challenges
-- Existing solutions
-- Desired outcomes
-- Success criteria
-- Decision-making processes
+* Current workflows
+* Business objectives
+* Operational challenges
+* Existing solutions
+* Desired outcomes
+* Success criteria
+* Decision-making processes
 
 Interviewers should avoid leading questions that encourage customers to confirm existing assumptions.
 
 The goal is to understand customer reality, not to influence customer responses.
+
+---
+
+# Feedback Collection Framework
+
+Customer feedback may be collected using different methods depending on the product stage, business question, and type of evidence required.
+
+Approved feedback collection methods include:
+
+* One-to-one customer interviews
+* Product demonstrations
+* Customer surveys
+* Customer support conversations
+* Product usage analytics
+* Usability testing
+* Feedback forms
+* Customer advisory sessions
+* Customer onboarding reviews
+* Customer success discussions
+
+The selected method should match the specific business question being investigated.
+
+Different questions require different evidence sources.
 
 ---
 
@@ -260,14 +283,14 @@ Customer feedback should be organized into meaningful categories to improve anal
 
 Typical feedback categories include:
 
-- Customer Problems
-- Feature Requests
-- Usability Issues
-- Bugs
-- Performance Issues
-- Customer Success Stories
-- Product Opportunities
-- Business Risks
+* Customer Problems
+* Feature Requests
+* Usability Issues
+* Bugs
+* Performance Issues
+* Customer Success Stories
+* Product Opportunities
+* Business Risks
 
 A single feedback item may belong to multiple categories when it provides evidence across different areas.
 
@@ -281,19 +304,20 @@ Not all customer feedback provides the same level of confidence.
 
 Evidence quality should consider:
 
-- Number of customers reporting the issue
-- Frequency of occurrence
-- Business impact
-- Customer segment relevance
-- Supporting product analytics
-- Consistency across multiple feedback sources
-- Customer willingness to take action
+* Number of customers reporting the issue
+* Frequency of occurrence
+* Business impact
+* Customer segment relevance
+* Supporting product analytics
+* Consistency across multiple feedback sources
+* Customer willingness to take action
 
 Higher-quality evidence should receive greater consideration during product and business decisions.
 
 Customer opinions are valuable inputs, but decisions should be based on validated patterns, measurable impact, and supporting evidence whenever practical.
 
 ---
+
 # Customer Validation Process
 
 Customer validation should follow a structured evidence-based process.
@@ -326,30 +350,66 @@ Validation
 Decision
 ```
 
+The objective of customer validation is to reduce uncertainty before making significant product, business, or engineering investments.
+
+Customer validation helps the company determine:
+
+* Whether a customer problem is real
+* Whether the problem is important enough to solve
+* Whether a proposed solution creates measurable customer value
+* Whether additional investment is justified
+
+Validation should answer questions such as:
+
+* Does this customer problem exist?
+* Which customers experience this problem?
+* How frequently does the problem occur?
+* What value would solving the problem create?
+* Are customers willing to adopt the solution?
+
+Based on the evidence collected, the outcome should be one of:
+
+* Continue
+* Modify
+* Expand
+* Pause
+* Stop
+
+Significant customer validation decisions should be recorded through the Decision Log when they affect:
+
+* Product strategy
+* Business direction
+* Architecture decisions
+* Engineering investment
+
+Customer validation ensures that company resources are invested based on evidence rather than assumptions.
+
+---
+
 # Feature Request Evaluation
 
 Feature requests should be evaluated by understanding the underlying customer problem rather than implementing requests exactly as submitted.
 
 Evaluation should consider:
 
-- Customer problem severity
-- Number of affected customers
-- Strategic alignment
-- Business value
-- Engineering effort
-- Platform reuse potential
-- Operational impact
-- Long-term product implications
+* Customer problem severity
+* Number of affected customers
+* Strategic alignment
+* Business value
+* Engineering effort
+* Platform reuse potential
+* Operational impact
+* Long-term product implications
 
 Customer requests provide valuable evidence but do not automatically determine the product roadmap.
 
 Feature decisions should balance:
 
-- Customer value
-- Business objectives
-- Technical feasibility
-- Operational sustainability
-- Strategic direction
+* Customer value
+* Business objectives
+* Technical feasibility
+* Operational sustainability
+* Strategic direction
 
 The company should prioritize solutions that create measurable customer and business impact.
 
@@ -363,258 +423,31 @@ Problem discovery focuses on understanding customer needs, challenges, workflows
 
 Problem discovery activities include:
 
-- Customer observation
-- Workflow analysis
-- Customer interviews
-- Product analytics
-- Market research
-- Customer success discussions
-- Industry research
+* Customer observation
+* Workflow analysis
+* Customer interviews
+* Product analytics
+* Market research
+* Customer success discussions
+* Industry research
 
 The company should seek to understand:
 
-- What customers are trying to achieve
-- What obstacles prevent successful outcomes
-- What existing solutions fail to provide
-- What improvements customers consider valuable
-- What measurable outcomes define success
+* What customers are trying to achieve
+* What obstacles prevent successful outcomes
+* What existing solutions fail to provide
+* What improvements customers consider valuable
+* What measurable outcomes define success
 
 A clearly understood customer problem provides a stronger foundation for successful product development than an early focus on features.
 
 Understanding customer problems helps the company:
 
-- Build products that solve meaningful problems
-- Reduce unnecessary development
-- Improve product prioritization
-- Increase customer value
-- Make better business decisions
-
----
-
-# Customer Feedback Records
-
-Customer feedback should be documented in a consistent format to preserve evidence, improve analysis, and support future decisions.
-
-A customer feedback record should include:
-
-| Field | Description |
-|--------|-------------|
-| Feedback ID | Unique identifier for the feedback record |
-| Date | Date feedback was collected |
-| Customer Segment | Type of customer providing feedback |
-| Source | Interview, survey, analytics, support, or other source |
-| Customer Problem | Problem or challenge identified |
-| Desired Outcome | Expected improvement or result |
-| Evidence | Supporting details and observations |
-| Impact | Business or customer impact |
-| Category | Problem, request, bug, opportunity, or risk |
-| Status | New, Reviewing, Validated, Addressed, or Archived |
-| Related Decisions | Linked Decision IDs where applicable |
-
-Customer feedback records should preserve context rather than only storing final conclusions.
-
-The purpose is to maintain a reliable history of customer learning and support evidence-based decision-making.
-
----
-
-# Feedback Prioritization Framework
-
-Customer feedback should be prioritized based on customer value and business impact rather than request volume alone.
-
-Prioritization should consider:
-
-- Customer problem severity
-- Number of affected customers
-- Strategic importance
-- Revenue opportunity
-- Customer retention impact
-- Implementation effort
-- Platform reuse potential
-- Operational impact
-
-High-priority feedback should represent meaningful opportunities to improve customer outcomes or business performance.
-
-Not every customer request should become a product requirement.
-
-Feedback should be evaluated through the company's product strategy and evidence standards.
-
----
-
-# Feedback Governance
-
-Customer feedback is a strategic company asset and should be managed consistently.
-
-Feedback governance ensures that customer evidence is:
-
-- Collected consistently
-- Properly documented
-- Reviewed regularly
-- Connected to decisions
-- Available for future learning
-
-Responsibilities include:
-
-- Maintaining feedback records
-- Reviewing feedback patterns
-- Identifying recurring problems
-- Connecting feedback to product decisions
-- Updating assumptions when new evidence appears
-
-Significant feedback-driven decisions should reference the appropriate Decision ID from the Decision Log.
-
-This creates traceability between customer evidence, product decisions, and company strategy.
-
----
-
-# Relationship With Other Operating Manual Documents
-
-Customer Feedback provides evidence that supports decisions across the EyesightWorks Technologies Operating Manual.
-
-Customer evidence should connect with related documents where appropriate.
-
-Examples include:
-
----
-
-## Product Documents
-
-- Product Roadmap
-- Product Strategy
-- MVP Validation
-
-Customer feedback helps guide product priorities, validation decisions, and investment choices.
-
----
-
-## Decision Documents
-
-- Decision Log
-
-Customer evidence should support significant business, product, architecture, engineering, and operational decisions.
-
----
-
-## Architecture Documents
-
-- Technology Stack
-- Backend Architecture
-- Frontend Architecture
-- Database Architecture
-- API Architecture
-
-Customer needs may influence technical requirements and platform decisions.
-
----
-
-## Engineering Documents
-
-- Development Standards
-- Testing Standards
-- Deployment Processes
-
-Customer feedback may identify areas requiring engineering improvement.
-
----
-
-Cross-document references improve consistency, reduce duplication, and preserve the connection between customer learning and company decisions.
-
----
-
-# Customer Feedback Maintenance
-
-Customer feedback is a living source of business evidence.
-
-Maintenance activities include:
-
-- Recording new feedback
-- Updating feedback status
-- Reviewing recurring patterns
-- Linking feedback to decisions
-- Removing outdated assumptions
-- Preserving historical learning
-
-Feedback should be reviewed continuously as customer needs, market conditions, and product strategies evolve.
-
-The goal is not simply to collect feedback, but to transform customer learning into better business and product decisions.
-
----
-
-# Decision Summary
-
-## Approved
-
-- Customer feedback as strategic evidence
-- Customer problem discovery before solutions
-- Evidence-driven validation
-- Structured feedback collection
-- Feedback classification
-- Evidence quality evaluation
-- Feature request evaluation framework
-- Customer validation process
-- Feedback records and governance
-- Cross-document feedback traceability
-
----
-
-## Open Questions
-
-- Which customer segment should provide the first validation evidence?
-- What feedback collection channel should become the primary source?
-- How frequently should customer feedback reviews occur?
-- Which feedback metrics should define customer success?
-- When should customer feedback trigger a formal Decision Log entry?
-
----
-
-# Next Document
-
-## 10-business-value-score.md
-
-This document defines how EyesightWorks Technologies evaluates business opportunities and product investments using a structured scoring framework.
-
-It will define:
-
-- Business evaluation criteria
-- Opportunity scoring
-- Revenue potential
-- Customer value assessment
-- Strategic alignment
-- Risk evaluation
-- Investment decisions
-
-# Customer Problem Discovery
-
-The company should continuously seek to understand customer problems before designing solutions.
-
-Problem discovery focuses on understanding customer needs, challenges, workflows, and desired outcomes before committing to product decisions.
-
-Problem discovery activities include:
-
-- Customer observation
-- Workflow analysis
-- Customer interviews
-- Product analytics
-- Market research
-- Customer success discussions
-- Industry research
-
-The company should seek to understand:
-
-- What customers are trying to achieve
-- What obstacles prevent successful outcomes
-- What existing solutions fail to provide
-- What improvements customers consider valuable
-- What measurable outcomes define success
-
-A clearly understood customer problem provides a stronger foundation for successful product development than an early focus on features.
-
-Understanding customer problems helps the company:
-
-- Build products that solve meaningful problems
-- Reduce unnecessary development
-- Improve product prioritization
-- Increase customer value
-- Make better business decisions
+* Build products that solve meaningful problems
+* Reduce unnecessary development
+* Improve product prioritization
+* Increase customer value
+* Make better business decisions
 
 ---
 
@@ -624,19 +457,19 @@ Customer feedback should be documented using a consistent structure to preserve 
 
 A customer feedback record should include:
 
-| Field | Description |
-|--------|-------------|
-| Feedback ID | Unique identifier for the feedback record |
-| Date | Date feedback was collected |
-| Customer Segment | Type of customer providing feedback |
-| Source | Interview, survey, analytics, support, or other source |
-| Customer Problem | Problem or challenge identified |
-| Desired Outcome | Expected improvement or result |
-| Evidence | Supporting details and observations |
-| Impact | Business or customer impact |
-| Category | Problem, request, bug, opportunity, or risk |
-| Status | New, Reviewing, Validated, Addressed, or Archived |
-| Related Decisions | Linked Decision IDs where applicable |
+| Field             | Description                                            |
+| ----------------- | ------------------------------------------------------ |
+| Feedback ID       | Unique identifier for the feedback record              |
+| Date              | Date feedback was collected                            |
+| Customer Segment  | Type of customer providing feedback                    |
+| Source            | Interview, survey, analytics, support, or other source |
+| Customer Problem  | Problem or challenge identified                        |
+| Desired Outcome   | Expected improvement or result                         |
+| Evidence          | Supporting details and observations                    |
+| Impact            | Business or customer impact                            |
+| Category          | Problem, request, bug, opportunity, or risk            |
+| Status            | New, Reviewing, Validated, Addressed, or Archived      |
+| Related Decisions | Linked Decision IDs where applicable                   |
 
 Customer feedback records should preserve context rather than only storing final conclusions.
 
@@ -650,15 +483,15 @@ Customer feedback should be prioritized based on customer value, business impact
 
 Prioritization should consider:
 
-- Customer problem severity
-- Number of affected customers
-- Strategic importance
-- Revenue opportunity
-- Customer retention impact
-- Implementation effort
-- Platform reuse potential
-- Operational impact
-- Long-term product implications
+* Customer problem severity
+* Number of affected customers
+* Strategic importance
+* Revenue opportunity
+* Customer retention impact
+* Implementation effort
+* Platform reuse potential
+* Operational impact
+* Long-term product implications
 
 High-priority feedback should represent meaningful opportunities to improve customer outcomes or business performance.
 
@@ -674,21 +507,21 @@ Customer feedback is a strategic company asset and should be managed consistentl
 
 Feedback governance ensures that customer evidence is:
 
-- Collected consistently
-- Properly documented
-- Reviewed regularly
-- Evaluated for quality
-- Connected to decisions
-- Available for future learning
+* Collected consistently
+* Properly documented
+* Reviewed regularly
+* Evaluated for quality
+* Connected to decisions
+* Available for future learning
 
 Responsibilities include:
 
-- Maintaining feedback records
-- Reviewing feedback patterns
-- Identifying recurring customer problems
-- Evaluating evidence quality
-- Connecting feedback to product decisions
-- Updating assumptions when new evidence appears
+* Maintaining feedback records
+* Reviewing feedback patterns
+* Identifying recurring customer problems
+* Evaluating evidence quality
+* Connecting feedback to product decisions
+* Updating assumptions when new evidence appears
 
 Significant feedback-driven decisions should reference the appropriate Decision ID from the Decision Log.
 
@@ -708,8 +541,8 @@ Examples include:
 
 ## Business Documents
 
-- Business Architecture
-- Product Strategy
+* Business Architecture
+* Product Strategy
 
 Customer feedback helps identify market opportunities, customer needs, and business priorities.
 
@@ -717,8 +550,8 @@ Customer feedback helps identify market opportunities, customer needs, and busin
 
 ## Product Documents
 
-- Product Roadmap
-- MVP Validation
+* Product Roadmap
+* MVP Validation
 
 Customer feedback helps guide product priorities, validation decisions, and investment choices.
 
@@ -726,7 +559,7 @@ Customer feedback helps guide product priorities, validation decisions, and inve
 
 ## Decision Governance Documents
 
-- Decision Log
+* Decision Log
 
 Customer evidence should support significant business, product, architecture, engineering, and operational decisions.
 
@@ -734,11 +567,11 @@ Customer evidence should support significant business, product, architecture, en
 
 ## Architecture Documents
 
-- Technology Stack
-- Backend Architecture
-- Frontend Architecture
-- Database Architecture
-- API Architecture
+* Technology Stack
+* Backend Architecture
+* Frontend Architecture
+* Database Architecture
+* API Architecture
 
 Customer needs may influence technical requirements, scalability decisions, and platform evolution.
 
@@ -746,9 +579,9 @@ Customer needs may influence technical requirements, scalability decisions, and 
 
 ## Engineering Documents
 
-- Development Standards
-- Testing Standards
-- Deployment Processes
+* Development Standards
+* Testing Standards
+* Deployment Processes
 
 Customer feedback may identify areas requiring engineering improvement.
 
@@ -756,10 +589,10 @@ Customer feedback may identify areas requiring engineering improvement.
 
 ## Operations Documents
 
-- Security
-- Monitoring
-- Infrastructure
-- Documentation
+* Security
+* Monitoring
+* Infrastructure
+* Documentation
 
 Customer feedback may reveal operational requirements, reliability expectations, and areas requiring process improvement.
 
@@ -775,12 +608,12 @@ Customer feedback is a living source of business evidence.
 
 Lifecycle management activities include:
 
-- Recording new feedback
-- Updating feedback status
-- Reviewing recurring patterns
-- Linking feedback to decisions
-- Removing outdated assumptions
-- Preserving historical learning
+* Recording new feedback
+* Updating feedback status
+* Reviewing recurring patterns
+* Linking feedback to decisions
+* Removing outdated assumptions
+* Preserving historical learning
 
 Feedback should be reviewed continuously as customer needs, market conditions, and product strategies evolve.
 
@@ -867,50 +700,56 @@ Archived feedback remains valuable because it provides:
 
 Archived records should not be deleted unless there is a documented reason.
 
+---
 
 # Decision Summary
 
 ## Approved
 
-- Customer feedback as strategic evidence
-- Customer problem discovery before solutions
-- Evidence-driven validation
-- Structured feedback collection
-- Feedback classification
-- Evidence quality evaluation
-- Feature request evaluation framework
-- Customer validation process
-- Customer feedback records
-- Feedback prioritization framework
-- Feedback governance
-- Customer feedback lifecycle management
-- Cross-document feedback traceability
-- Continuous customer learning process
+* Customer feedback as strategic evidence
+* Customer problem discovery before solutions
+* Evidence-driven validation
+* Structured feedback collection
+* Feedback classification
+* Evidence quality evaluation
+* Feature request evaluation framework
+* Customer validation process
+* Customer feedback records
+* Feedback prioritization framework
+* Feedback governance
+* Customer feedback lifecycle management
+* Feedback status lifecycle
+* Cross-document feedback traceability
+* Continuous customer learning process
 
 ---
 
 ## Open Questions
 
-- Which customer segment should provide the first validation evidence?
-- What feedback collection channel should become the primary source?
-- How frequently should customer feedback reviews occur?
-- Which feedback metrics should define customer success?
-- When should customer feedback trigger a formal Decision Log entry?
+* Which customer segment should provide the first validation evidence?
+* What feedback collection channel should become the primary source?
+* How frequently should customer feedback reviews occur?
+* Which feedback metrics should define customer success?
+* When should customer feedback trigger a formal Decision Log entry?
 
 ---
 
 # Next Document
 
-## 10-business-value-score.md
+## 10-launch-checklist.md
 
-This document defines how EyesightWorks Technologies evaluates business opportunities and product investments using a structured scoring framework.
+This document defines the launch readiness framework for EyesightWorks Technologies products, services, and major releases.
 
 It will define:
 
-- Business evaluation criteria
-- Opportunity scoring
-- Revenue potential
-- Customer value assessment
-- Strategic alignment
-- Risk evaluation
-- Investment decisions
+* Launch readiness criteria
+* Business readiness
+* Product readiness
+* Technical readiness
+* Security readiness
+* Customer readiness
+* Operational readiness
+* Deployment verification
+* Launch approval
+* Post-launch monitoring
+* Post-launch review

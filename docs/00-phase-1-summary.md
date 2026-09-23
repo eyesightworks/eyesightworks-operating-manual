@@ -1,17 +1,25 @@
 # EyesightWorks Technologies Operating Manual
 
-**Document:** 00 of 17
+**Document:** 00 of 21
+
 **Title:** Phase 1 Summary
-**Version:** 1.0
+
+**Version:** 1.1
+
 **Status:** Approved
+
 **Owner:** EyesightWorks Technologies
-**Last Updated:** 2026-08-05
+
+**Last Updated:** 2026-09-21
+
+---
 
 ## Revision History
 
-| Version | Date       | Changes                          |
-| ------- | ---------- | -------------------------------- |
-| 1.0     | 2026-08-05 | Initial approved Phase 1 summary |
+| Version | Date       | Changes                                                                            |
+| ------- | ---------- | ---------------------------------------------------------------------------------- |
+| 1.0     | 2026-08-05 | Initial approved Phase 1 summary                                                   |
+| 1.1     | 2026-09-21 | Updated document count and aligned summary with current Operating Manual structure |
 
 ---
 
@@ -41,6 +49,8 @@ It serves as the bridge between defining the company and designing how the busin
 Phase 1 established the identity, direction, governance, and operating philosophy of EyesightWorks Technologies.
 
 The objective was not to design software, but to create a decision-ready operating manual that aligns future business, product, architecture, and engineering work.
+
+The foundation established during Phase 1 continues to guide the later documents in the Operating Manual.
 
 ---
 
@@ -102,6 +112,10 @@ Architecture guides engineering.
 
 Technology exists to support business outcomes.
 
+The operating sequence is:
+
+**Business → Product → Architecture → Engineering**
+
 ---
 
 ## Governance Principles
@@ -113,14 +127,22 @@ The company adopts the following governance principles:
 * Important decisions are documented and traceable.
 * Approved documents remain stable until new evidence justifies change.
 * Learning through customer validation is preferred over internal assumptions.
+* Ownership should be clear for important decisions and responsibilities.
+* Governance should remain proportional to company size and complexity.
 
 ---
 
 ## Documentation Strategy
 
-The operating manual exists to improve decision quality, execution speed, and organizational clarity.
+The Operating Manual exists to improve:
 
-Every document should help answer important business or engineering questions.
+* decision quality
+* execution speed
+* organizational clarity
+* accountability
+* continuity of knowledge
+
+Every document should help answer important business, product, technical, or operational questions.
 
 If documentation no longer improves decisions, it should be simplified.
 
@@ -128,7 +150,7 @@ If documentation no longer improves decisions, it should be simplified.
 
 ## Decision Framework
 
-Every significant decision will include:
+Every significant decision should include, where appropriate:
 
 * Decision ID
 * Context
@@ -140,13 +162,15 @@ Every significant decision will include:
 * Owner
 * Date
 
-Decision categories:
+Decision categories include:
 
 * BUS — Business
 * PROD — Product
 * ARCH — Architecture
 * ENG — Engineering
 * OPS — Operations
+
+The Decision Log serves as the authoritative record for significant decisions.
 
 ---
 
@@ -166,18 +190,30 @@ The purpose is continuous improvement through evidence.
 
 ---
 
-# Deliverables Completed
+# Deliverables Established
 
-The following foundational documents have been established or initiated.
+The Operating Manual has evolved beyond the initial Phase 1 foundation into a broader company operating system.
 
-| Document                | Status        |
-| ----------------------- | ------------- |
-| README.md               | ✅             |
-| 00-phase-1-summary.md   | ✅             |
-| 01-company-vision.md    | ✅ Approved    |
-| Repository Structure    | ✅ Established |
-| Governance Framework    | ✅ Established |
-| Documentation Standards | ✅ Established |
+Key areas now documented include:
+
+| Area                                      | Status                                  |
+| ----------------------------------------- | --------------------------------------- |
+| Company Vision                            | ✅ Established                           |
+| Business Architecture                     | ✅ / Maintained through operating manual |
+| Decision Management                       | ✅ Established                           |
+| Customer Feedback                         | ✅ Established                           |
+| Launch Governance                         | ✅ Established                           |
+| Metrics                                   | ✅ Established                           |
+| Business Value Evaluation                 | ✅ Established                           |
+| Brand Guidelines                          | ✅ Established                           |
+| Development Standards                     | ✅ Established                           |
+| Product Requirements                      | ✅ Established                           |
+| Vision Parking Lot                        | ✅ Established                           |
+| Risk Management                           | ✅ Established                           |
+| Operating Governance                      | ✅ Established                           |
+| Security and Privacy                      | ✅ Established                           |
+| Business Continuity and Disaster Recovery | ✅ Established                           |
+| Monitoring and Observability              | ✅ Established                           |
 
 ---
 
@@ -185,26 +221,31 @@ The following foundational documents have been established or initiated.
 
 ## Milestone 1 — Foundation Complete ✅
 
-EyesightWorks Technologies now has a documented operating foundation that provides:
+EyesightWorks Technologies established a documented operating foundation that provides:
 
-* A clear company vision.
-* A defined operating philosophy.
-* A governance model.
-* Documentation standards.
-* A decision framework.
-* A shared vocabulary for future product and engineering decisions.
+* A clear company vision
+* A defined operating philosophy
+* A governance model
+* Documentation standards
+* A decision framework
+* A shared vocabulary for future product and engineering decisions
+* A structured approach to customer evidence
+* A framework for product validation and launch
+* A framework for risk, security, continuity, and monitoring
 
-Future contributors should be able to understand what the company is building, why it exists, and how decisions are made without relying on undocumented knowledge.
+Future contributors should be able to understand what the company is building, why it exists, and how decisions are made without relying entirely on undocumented knowledge.
 
 ---
 
 # Transition to Phase 2
 
-With the company foundation complete, attention shifts from defining **who we are** to validating **how the business will create value**.
+With the company foundation established, attention shifts from defining **who we are** to validating **how the business will create value**.
 
 Phase 2 focuses on designing the smallest evidence-driven business model capable of reaching the company's next milestone.
 
-## Phase 2 Objective
+---
+
+# Phase 2 Objective
 
 Design a business architecture that clearly defines:
 
@@ -218,7 +259,7 @@ Design a business architecture that clearly defines:
 * Business assumptions
 * Success metrics
 
-Every major assumption should include a validation plan before influencing architecture or engineering decisions.
+Every major assumption should include a validation plan before influencing significant product, architecture, or engineering decisions.
 
 ---
 
@@ -232,23 +273,230 @@ Phase 2 will be considered successful when a reader can clearly understand:
 * How revenue will be generated.
 * Which assumptions require validation.
 * How customer evidence will guide future decisions.
+* Which opportunities should receive investment.
+* Which initiatives should remain deferred until stronger evidence exists.
 
 ---
 
-# Next Document
+# Relationship to the Operating Manual
 
-**docs/02-business-architecture.md**
+The Phase 1 foundation establishes the principles that later documents operationalize.
 
-This document translates the company vision into a practical, evidence-driven business model that guides future product, architecture, and engineering decisions.
+The current Operating Manual therefore follows a connected model:
+
+```text
+Company Vision
+      ↓
+Business Design
+      ↓
+Customer Evidence
+      ↓
+Product Requirements
+      ↓
+Business Value
+      ↓
+Decision
+      ↓
+Development
+      ↓
+Launch
+      ↓
+Metrics
+      ↓
+Risk Management
+      ↓
+Security & Privacy
+      ↓
+Continuity & Recovery
+      ↓
+Monitoring
+      ↓
+Learning
+      ↓
+Improvement
+```
+
+The purpose of the Operating Manual is not to create documentation for its own sake.
+
+Its purpose is to improve the quality of company decisions and execution.
+
+---
+
+# Current Operating Principles
+
+The company continues to operate according to the following principles:
+
+### Company First
+
+The company should build durable value rather than optimize isolated short-term activities.
+
+### Business Before Code
+
+Business problems and customer value should guide technical investment.
+
+### MVP First
+
+The company should validate important assumptions before committing significant resources.
+
+### Evidence Before Assumptions
+
+Customer and operational evidence should guide major decisions whenever available.
+
+### Depth Before Breadth
+
+The company should focus resources rather than simultaneously pursuing too many initiatives.
+
+### Documentation Accelerates Decisions
+
+Documentation should preserve important context and reduce repeated uncertainty.
+
+### Measurable AI Value
+
+AI should be used when it creates meaningful customer or business value.
+
+### Visible Weekly Output
+
+Progress should be visible through shipped work, validated learning, or measurable improvement.
+
+---
+
+# Phase 2 Working Principle
+
+The company should focus on:
+
+> **Business → Customer → Evidence → Value → Decision → Product → Execution**
+
+Technology should support this chain rather than replace it.
+
+---
+
+# Future Phase Direction
+
+The next phases of the Operating Manual should remain connected to actual company needs.
+
+### Phase 2 — Business Design
+
+Focus:
+
+* customer
+* market
+* business model
+* revenue
+* validation
+* acquisition
+* retention
+* business assumptions
+
+### Phase 3 — Platform Design
+
+Focus:
+
+* product architecture
+* shared platform capabilities
+* technical boundaries
+* infrastructure
+* integrations
+* scalability
+* security
+* reliability
+
+### Phase 4 — Execution
+
+Focus:
+
+* implementation
+* releases
+* customer acquisition
+* operations
+* measurement
+* continuous improvement
+
+The exact timing and scope of each phase should be determined by evidence and company progress.
+
+---
+
+# Document Governance
+
+This Phase 1 Summary should remain a historical and strategic reference.
+
+It should not be changed merely to reflect every later operational detail.
+
+Changes should be made when there is:
+
+* a meaningful strategic change
+* a change to the company's operating model
+* a major decision affecting the Phase 1 foundation
+* new evidence that materially changes an established principle
+
+Significant changes should be documented in the Decision Log.
+
+---
+
+# Document Count
+
+The Operating Manual currently extends through **Document 21**.
+
+The numbering represents the current documented operating system and may grow in the future when genuine operating needs require additional documents.
+
+New documents should not be created merely to increase the document count.
+
+---
+
+# Current Document Sequence
+
+The current operating manual includes:
+
+```text
+00 — Phase 1 Summary
+01 — Company Vision
+02 — Business Architecture
+03 — [Existing Document]
+04 — [Existing Document]
+05 — [Existing Document]
+06 — [Existing Document]
+07 — [Existing Document]
+08 — Decision Log
+09 — Customer Feedback
+10 — Launch Checklist
+11 — Metrics Dashboard
+12 — Business Value Score
+13 — Brand Guidelines
+14 — Development Standards
+15 — Product Requirements
+16 — Vision Parking Lot
+17 — Risk Register
+18 — Operating Governance
+19 — Security and Privacy
+20 — Business Continuity and Disaster Recovery
+21 — Monitoring and Observability
+```
+
+Documents 03–07 should remain governed by their actual existing filenames and contents.
 
 ---
 
 # Document Status
 
-**Status:** Approved v1.0
+**Status:** Approved v1.1
 
 Phase 1 — Company Design is complete.
 
-The operating principles, governance model, documentation strategy, and decision framework are now considered stable and should be revised only when supported by new evidence or strategic company decisions.
+The operating principles, governance model, documentation strategy, and decision framework established during Phase 1 remain the foundation of the Operating Manual.
 
-The focus now shifts from planning the company to validating the business.
+The company has now expanded that foundation into business, product, engineering, governance, risk, security, continuity, and monitoring practices.
+
+The primary focus remains:
+
+> **Build the company while making money.**
+
+Everything else should support that objective.
+
+---
+
+# Operating Principle
+
+> **The Operating Manual exists to help EyesightWorks make better decisions, execute faster, learn from evidence, and build a durable company.**
+
+The company should continue to:
+
+**Understand → Validate → Decide → Build → Measure → Learn → Improve**
